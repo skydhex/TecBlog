@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+/* HEARDER*/
+#container-header {
+    background-color: #ffd900;
+    height: 140px;
+
+}
+
+#container-header h1 {
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    color: #585656;
+
+}
+
+#header {
+    text-align: center;
+
+}
+
+.color-blog {
+    color: #fff;
+}
+
+#header li {
+    position: relative;
+    display: inline;
+    top: 50px;
+    padding: 5px;
+    font-size: 20px;
+
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+#header a {
+    color: #fff;
+}
+
+#header a:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.2s;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* NEWS*/
+.news {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 650px;
+    margin-left: 210px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.news h1 {
+    color: #000000;
+}
+
+.image {
+    margin-top: 15px;
+}
+
+a {
+    color: #ff9900;
+}
+
+/* recent posts*/
+#recent-posts {
+    position: absolute;
+    top: 156px;
+    left: 950px;
+    width: 340px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+
+
+/*category*/
+#category {
+    position: absolute;
+    top: 350px;
+    left: 950px;
+    width: 340px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+/* background-color of category title and recent posts title */
+h2 {
+    background-color: #ddd7d7;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    background-color: #a8a2a2;
+    width: 400px;
+    margin: auto;
+}
